@@ -1,0 +1,9 @@
+## Interface: 80300
+## Author: cry1n
+## Version: 1.00
+## Title: |cff1784d1cry1n|r |cff4beb2cLayout Installer|r
+## Notes: Contains layouts from cry1n
+## RequiredDeps: ElvUI
+## DefaultState: enabled
+
+Code.lua
