@@ -1179,7 +1179,7 @@ P[MyPluginName] = {}
 --This function will handle initialization of the addon
 function mod:Initialize()
 	--Initiate installation process if ElvUI install is complete and our plugin install has not yet been run
-	if E.private.install_complete and E.db[MyPluginName].install_version == nil then
+	if E.private.install_complete and E.db.benikui.installed ~= nil and E.db[MyPluginName].install_version == nil then
 		E:GetModule("PluginInstaller"):Queue(InstallerData)
 	end
 
